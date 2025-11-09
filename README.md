@@ -107,27 +107,6 @@ search <pattern>	Search for a file name	search report
 chmod <mode> <file>	Change permissions (Linux only)	chmod 755 script.sh
 help	Display all commands	help
 exit	Quit the program	exit
-🧪 Sample Output
-/home/tanmay > ls
-DIR        0  2025-11-09 04:10:00 Documents
-FILE    1024  2025-11-09 03:45:10 main.cpp
-FILE     234  2025-11-09 03:46:22 README.md
-
-/home/tanmay > mkdir test
-/home/tanmay > cd test
-/home/tanmay/test > pwd
-/home/tanmay/test
-
-/home/tanmay/test > cp ../main.cpp copy.cpp
-/home/tanmay/test > ls
-FILE    1024  2025-11-09 03:45:10 copy.cpp
-
-/home/tanmay/test > search cpp
-/home/tanmay/test/copy.cpp
-/home/tanmay/main.cpp
-
-/home/tanmay/test > exit
-Goodbye!
 
 🧭 Learning Outcomes
 
